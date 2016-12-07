@@ -45,6 +45,25 @@ div {
 	background: rgb(255, 100, 100);
 }
 
-#box1 {
-	background: rgba(255, 100, 100, 0.2);
+#box2 {
+	background: rgba(255, 100, 100, .2);
+}
+
+#box3 {
+	background: hsla(210, 100%, 50%, .7);
+}
+
+#box4 {
+	background: hsla(210, 100%, 40%, .7);
+}
+
+/*
+
+*/
+
+body { background: skyblue; }
+
+img {
+	border: 7px solid blue;
+	opacity: 0.3;
 }
