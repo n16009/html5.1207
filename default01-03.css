@@ -57,3 +57,13 @@ div {
 	background: hsla(210, 100%, 40%, .7);
 }
 
+/*
+
+*/
+
+body { background: skyblue; }
+
+img {
+	border: 7px solid blue;
+	opacity: 0.3;
+}
