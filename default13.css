@@ -3,21 +3,19 @@
 
 */
 
-div1 {
+div {
 	width: 200px;
 	height: 200px;
+	/*background-image:
+	radial-gradient(skyblue, blue);*/
+	/*background-image:
+	radial-gradient(at 30px 40px, skyblue, blue);*/
+	/*background-image:
+	radial-gradient(ellipse 20px 30px at 30px 40px, skyblue, blue);*/
+	/*background-image:
+	radial-gradient(circle 20px at 30px 40px, skyblue, blue);*/
+	/*background-image:
+	radial-gradient(farthest-side at 30px 40px, skyblue, blue);*/
 	background-image:
-	radial-gradient(skyblue, blue);}
-div2 {
-	width: 200px;
-	height: 200px;
-	background-image:
-	linear-gradient(to top left, skyblue, blue);}
-	/*background-image:
-	linear-gradient(45deg, skyblue, blue);*/
-	/*background-image:
-	linear-gradient(lightgreen, skyblue, blue);*/
-	/*ckground-image:
-	linear-gradient(lightgreen 10%, skyblue 70%, blue);*/
-	/*background-image:
-	repeating-linear-gradient(lightgreen, skyblue 20px);*/
+	repeating-radial-gradient(skyblue, blue 20px);
+}
