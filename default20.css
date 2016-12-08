@@ -12,10 +12,3 @@ body {
 	height: 100px;
 	background: skyblue;
 }
-.box{
-	box-sizing: border-box;
-	width: 100px;
-	height: 100px;
-	/*width: 80px;
-	height: 70px;*/
-}
